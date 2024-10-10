@@ -19,8 +19,8 @@ This Streamlit application is designed to fetch and filter bus route data from t
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone <[(https://github.com/vishwa5781/redbusproject]>
+    cd <redbusproject>
     ```
 
 2. Install the required dependencies:
@@ -53,9 +53,9 @@ This Streamlit application is designed to fetch and filter bus route data from t
     ```python
     conn = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='root',
-        database='redbus_application'
+        user='your username',
+        password='your password',
+        database='your database'
     )
     ```
 
