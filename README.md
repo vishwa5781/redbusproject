@@ -63,7 +63,7 @@ This Streamlit application is designed to fetch and filter bus route data from t
 
 1. Start the application using Streamlit:
     ```bash
-    streamlit run app.py
+    streamlit run main.py
     ```
 
 2. Once the app is running, follow these steps:
@@ -75,7 +75,7 @@ This Streamlit application is designed to fetch and filter bus route data from t
 
 ## Code Structure
 
-- **app.py**: Main Streamlit application file that handles the user interface, data fetching, and filtering logic.
+- **main.py**: Main Streamlit application file that handles the user interface, data fetching, and filtering logic.
 - **background.py**: A utility module that handles the actual web scraping and database push functionalities.
 - **logo/**: Directory containing images used in the header of the application.
 
