@@ -92,6 +92,7 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 
+## Author
 
-Author
 Kaarthikk Vishwa
+
