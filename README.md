@@ -1,4 +1,6 @@
+background funtionalities:
 Bus Route Data Scraper
+
 Overview
 This project is a web scraping application designed to extract bus route data from the RedBus website. It retrieves information about various bus services, including details such as bus names, types, departure times, durations, arrival times, star ratings, prices, and seat availability. The collected data is then stored in a MySQL database.
 
@@ -55,30 +57,8 @@ connection = mysql.connector.connect(
 )
 Selenium WebDriver: Ensure that the Chrome WebDriver is compatible with your installed version of Chrome. You can download the driver from ChromeDriver's official site.
 
-Usage
-Run the main script:
+app funtianility:
 
-Call the statetransport function to get the available bus routes:
-
-python
-Copy code
-bus_routes = statetransport("https://www.redbus.in")
-Extract bus data for a specific route:
-
-Use the scrape_bus_data function with the desired route name and link:
-
-python
-Copy code
-bus_data_df = scrape_bus_data('Hyderabad to Vijayawada', 'https://www.redbus.in/bus-tickets/hyderabad-to-vijayawada')
-Push data to MySQL:
-
-Use the sql_push function to store the scraped data into the MySQL database:
-
-python
-Copy code
-sql_push(bus_data_df)
-Logging
-The application uses logging to capture events and errors. Logs will be output to the console, providing insight into the scraping process and any issues encountered.
 
 Author
 Kaarthikk Vishwa
