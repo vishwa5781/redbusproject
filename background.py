@@ -274,8 +274,8 @@ def sql_push(final_df):
     try:
         connection = mysql.connector.connect(
             host='localhost',        
-            user='root',               
-            password='root'
+            user='your_user',               
+            password='your_password'
         )
 
         if connection.is_connected():
